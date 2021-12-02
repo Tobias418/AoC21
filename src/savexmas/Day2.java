@@ -3,6 +3,7 @@ package savexmas;
 import java.util.List;
 
 public class Day2 extends AoCDay {
+
     public static void main(String[] args) {
         new Day2();
     }
@@ -35,4 +36,5 @@ public class Day2 extends AoCDay {
 
         return x * y;
     }
+
 }

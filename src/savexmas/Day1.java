@@ -9,6 +9,7 @@ public class Day1 extends AoCDay {
         new Day1();
     }
 
+    @Override
     public long part1(List<String> input) {
         long increaseCounter = 0;
         List<Long> depths = input.stream().map(Long::parseLong).collect(Collectors.toList());
@@ -18,6 +19,7 @@ public class Day1 extends AoCDay {
         return increaseCounter;
     }
 
+    @Override
     public long part2(List<String> input) {
         long increaseCounter = 0;
         List<Long> depths = input.stream().map(Long::parseLong).collect(Collectors.toList());
@@ -26,4 +28,5 @@ public class Day1 extends AoCDay {
         }
         return increaseCounter;
     }
+
 }
